@@ -25,7 +25,7 @@ public:
     ~MainWindow();
 public slots:
     void FileOpenSlot();
-    //void FileSaveSlot();
+    void FileSaveSlot();
 
 private:
     Ui::MainWindow *ui;
